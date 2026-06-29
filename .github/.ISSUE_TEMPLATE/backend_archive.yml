@@ -1,0 +1,25 @@
+name: 빼껜드 아카이브 Issue Template ver2 ⚙️ 
+description: 빼껜드 아카이브 템플릿 ⚙️
+title: "[TAG] Issue Message ⚙️"
+labels: []
+assignees: []
+
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: "💥 이슈 내용"
+      description: "기능에 대한 설명을 작성해주세요."
+      placeholder: "이번 이슈에서 진행한 내용을 작성해주세요."
+    validations:
+      required: true
+
+  - type: textarea
+    id: todo
+    attributes:
+      label: "✍🏻 To-do"
+      description: "해야 할 일들에 대해 적어주세요"
+      value: |
+        - [ ] 할 일
+    validations:
+      required: true
