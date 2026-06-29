@@ -1,8 +1,8 @@
 name: 빼껜드 아카이브 ! Issue Template ⚙️
 description: 빼껜드 아카이브 ! 이슈 템플릿 ~ 💥
 title: "[TAG] Issue Message"
-labels: []
-assignees: []
+labels: [study 📚]
+assignees: [yexnsxo]
 
 body:
   - type: textarea
