@@ -116,6 +116,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+# STATICFILES_DIRS을 통해 static 파일들의 경로를 알려줌
+# BASE_DIR = 최상위 폴더의 위치를 의미 -> 여기서는 week01
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
