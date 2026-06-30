@@ -25,3 +25,6 @@ def login(request):
     
   return render(request, 'login.html') # 인증 실패 시 로그인 페이지를 렌더링
 
+def main(request):
+  return render(request, "main.html")
+
